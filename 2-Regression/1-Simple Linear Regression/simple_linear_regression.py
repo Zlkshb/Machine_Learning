@@ -38,3 +38,6 @@ plt.title('Salary vs Experiences (Test Set)')
 plt.xlabel('Years of Experiences')
 plt.ylabel('Salary')
 plt.show()
+
+print('Coefficients: \n',regressor.coef_)
+print('Intercept: \n',regressor.intercept_)
